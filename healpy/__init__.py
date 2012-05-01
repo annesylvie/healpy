@@ -58,6 +58,8 @@ from zoomtool import mollzoom,set_g_clim
 
 from rotator import Rotator, vec2dir, dir2vec
 
+from polarizationplot import compute_vecs_point, delta_a, pol_points, draw_pol, plot_local_meridian
+
 try:
     from _healpy_pixel_lib import UNSEEN
 except ImportError:
